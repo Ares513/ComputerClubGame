@@ -1,0 +1,1137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="ComputerClubGame.ChineseLunch" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>All-Purpose Classes\ChineseLunch.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.DeveloperConsole" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAIAAAAAAAAACABAAIACABAAAAAAAAAA=</HashCode>
+      <FileName>All-Purpose Classes\DeveloperConsole.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.PendingConsoleCommand" Collapsed="true">
+    <Position X="25.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAAAEAAAAABAAAAEAAAAAAAAAASAAAAAA=</HashCode>
+      <FileName>All-Purpose Classes\DeveloperConsole.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.InvokeMethodOnPlayer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>All-Purpose Classes\DeveloperConsole.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.SetPlayerProperty" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>All-Purpose Classes\DeveloperConsole.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.PrintPlayerMembers" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>All-Purpose Classes\DeveloperConsole.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.GarbageCollector" Collapsed="true">
+    <Position X="22" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQIAQAAAIAgAAAABAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>All-Purpose Classes\GarbageCollector.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.IDGenerator" Collapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>All-Purpose Classes\IDGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.InitializationSettings" Collapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>All-Purpose Classes\InitializationSettings.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.GameSettings" Collapsed="true">
+    <Position X="20.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>All-Purpose Classes\InitializationSettings.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.InputMessageFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABIISIAAAgAQlAEIAAAAACQAAAAIAgCA=</HashCode>
+      <FileName>All-Purpose Classes\InputMessageFilter.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.KernsMath" Collapsed="true">
+    <Position X="25.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAABAgAAAAAAAMAAAAAABBAAAEAIAIAAAAAIAAAA=</HashCode>
+      <FileName>All-Purpose Classes\KernsMath.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.UnitRotationCalcResult" Collapsed="true">
+    <Position X="25.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAACAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>All-Purpose Classes\KernsMath.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.StringHelper" Collapsed="true">
+    <Position X="16.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>All-Purpose Classes\StringHelper.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Asset" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAABAAAAAQAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data IO\Asset.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.AssetManager" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQAAAAACAAABAADAAAIgIAAQAAABQAAAwAAAAAAA=</HashCode>
+      <FileName>Data IO\AssetManager.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.DebugManagement" Collapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAkQAAAAACAAAAAAAAAAQAEAAAAEAACAAAAAAEAAAA=</HashCode>
+      <FileName>Data IO\DebugManagement.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.DebugScreenWriter" Collapsed="true">
+    <Position X="27.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAICAAA=</HashCode>
+      <FileName>Data IO\DebugScreenWriter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.FriendlyNPCDataDescription" Collapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEAAAAAACgAAgAAAAAECAACAAAIAAQAAAAAAAAQAA=</HashCode>
+      <FileName>Data IO\FriendlyNPCDataDescription.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.HostileNPCDataDescription" Collapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAABAAAAAAAAAAAAEAAAAAAAQAAQABCAAAAAAA=</HashCode>
+      <FileName>Data IO\HostileNPCDataDescription.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.LocalConfiguration" Collapsed="true">
+    <Position X="27.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEAAAIAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Data IO\LocalConfiguration.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.PlayerDataDescription" Collapsed="true">
+    <Position X="18.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAACQgAAAAAAAAAAABAAAAgAAQAAAAIgCg=</HashCode>
+      <FileName>Data IO\PlayerDataDescription.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.AttackAction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Actions\AttackAction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.BlankAction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Actions\BlankAction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.FireballLaunchAction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Actions\FireballLaunchAction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.FireNovaLaunchAction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Actions\FireNovaLaunchAction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.FireNovaPeriodicAction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Actions\FireNovaPeriodicAction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.FirestreamLaunchAction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Actions\FirestreamLaunchAction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.FireStreamPeriodicAction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Actions\FireStreamPeriodicAction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.InventoryAction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Actions\InventoryAction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.PartyInfoAction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Actions\PartyInfoAction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.SkillTreeAction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Actions\SkillTreeAction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.Animation" Collapsed="true">
+    <Position X="11.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QA2gAkUAgABEggEAADAEKACQAoCUAEgMAAKAogMmICE=</HashCode>
+      <FileName>Game Logic\Animation.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.AnimationDefinition" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAABAAAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Animation.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Area" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAADAAAgAAAAAgAAEAAAIAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Game Logic\Area.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.Breeder" Collapsed="true">
+    <Position X="27.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAACAAAgAAAAAAAAAAEAAAAAAAABAAAAAAAAAEAAA=</HashCode>
+      <FileName>Game Logic\Breeder.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Buff" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Buff.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Cooldown" Collapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oARAAAAAAAAAiBACAAAAAAAAAggEAAAAAAAAQAAAAEA=</HashCode>
+      <FileName>Game Logic\Cooldown.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.CooldownManager" Collapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAgAAACAAEgAAAAAAAAJAA=</HashCode>
+      <FileName>Game Logic\CooldownManager.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Cost" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAE=</HashCode>
+      <FileName>Game Logic\Cost.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.EffectManagement" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\EffectManagement.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Damage" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACACAAAAAAYwAAAABAAAAAAACAAAAAAgAEQE=</HashCode>
+      <FileName>Game Logic\Effects\Damage.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ComputerClubGame.PeriodicEffect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAACAAAAAADEQUIAAAAAAAAAAAAAAABgAAAAQ=</HashCode>
+      <FileName>Game Logic\Effects\PeriodicEffect.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.SearchArea" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Effects\SearchArea.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.Entity" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAEAAAAAAAoiAAgAAAIAQAQACAIgQIAAUAgAMIACA=</HashCode>
+      <FileName>Game Logic\Entity.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Size" Collapsed="true">
+    <Position X="23.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Entity.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.EntityFriendly" Collapsed="true">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAgAAAAAAAgAAAgAAAAAAAAAAgAAIEAAAUgAQAAI=</HashCode>
+      <FileName>Game Logic\EntityFriendly.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.EntityLiving" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BRUGCAhEAAJACpo4BAQRAIYAAgwQAMIoAEIEICgUKQE=</HashCode>
+      <FileName>Game Logic\EntityLiving.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.EntityManagement" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAVAEAoEEADCIoAAARYAAAAADAAhAEAAQAACAAAGhAE=</HashCode>
+      <FileName>Game Logic\EntityManagement.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.EntityPlayer" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQhIACABAIEAioAgAyABAAQAwoARAAgMBgqAkgEIAqA=</HashCode>
+      <FileName>Game Logic\EntityPlayer.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.EntityPlayerLoader" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\EntityPlayerLoader.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.EnumTerrainType" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\EnumTerrainType.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Guild" Collapsed="true">
+    <Position X="23.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Guild.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.ItemData" Collapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBAAAAAAAAAAAAAAAIIAAAIAgAAACAAAAAAA=</HashCode>
+      <FileName>Game Logic\ItemData.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.ItemGenerator" Collapsed="true">
+    <Position X="16.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAiAAAAAAACAAAAAAAQEAAAAA=</HashCode>
+      <FileName>Game Logic\ItemGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.ItemList" Collapsed="true">
+    <Position X="18.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\ItemList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.ItemSet" Collapsed="true">
+    <Position X="20.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\ItemSet.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.ItemStats" Collapsed="true">
+    <Position X="23.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAQAAAEAAAgACAgIAAACAAAUIAABAAA=</HashCode>
+      <FileName>Game Logic\ItemStats.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.MapGenerator" Collapsed="true">
+    <Position X="29" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\MapGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.MapManager" Collapsed="true">
+    <Position X="30.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAABAgAACAAAAAgAKAAAAAAgAABAAEAAA=</HashCode>
+      <FileName>Game Logic\MapManager.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.IsoAnimation" Collapsed="true">
+    <Position X="11.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\MapRendering\IsoAnimation.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.IsoCamera" Collapsed="true">
+    <Position X="25.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAIQAAEAAAAAAYAAAACAAEAJAAQAAAhAA=</HashCode>
+      <FileName>Game Logic\MapRendering\IsoCamera.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.IsoRay" Collapsed="true">
+    <Position X="27.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAIAAAAAgACAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Game Logic\MapRendering\IsoCamera.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.IsoTexture" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAgAAAIAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\MapRendering\IsoTexture.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.MapRenderer" Collapsed="true">
+    <Position X="32.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAggAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\MapRendering\MapRenderer.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.TileSetFactory" Collapsed="true">
+    <Position X="20.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABgAAAAAAAABAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\MapRendering\TileSetFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.TileSetGrid" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAEAAIAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\MapRendering\TileSetGrid.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.MapTest" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\MapTest.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ComputerClubGame.Mob" Collapsed="true">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EUQSAEkCQAgAAgBACAAAEAAIAAAAGAQIBAAABgEAEAA=</HashCode>
+      <FileName>Game Logic\Mob.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.NonPlayerEntity" Collapsed="true">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\NonPlayerEntity.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Player" Collapsed="true">
+    <Position X="29" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAgAgAAAIAAwIBAEAAC0hCAoIAAADCAAUJAABABE=</HashCode>
+      <FileName>Game Logic\Player.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.PlayerAttribute" Collapsed="true">
+    <Position X="30.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\PlayerAttribute.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.PlayerClass" Collapsed="true">
+    <Position X="32.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAQAAAAAAAAAAAAQgAAAAAAAAAAAACAgAAAAQAAAA=</HashCode>
+      <FileName>Game Logic\PlayerClass.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.PlayerClassFactory" Collapsed="true">
+    <Position X="16.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Game Logic\PlayerClassFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.PlayerGuild" Collapsed="true">
+    <Position X="20.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\PlayerGuild.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.PlayerModifier" Collapsed="true">
+    <Position X="22" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACKAIgEEJAAJAIEAAAEIAoCAlBAAAYmBqARAgEAABo=</HashCode>
+      <FileName>Game Logic\PlayerModifier.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.PlayerRace" Collapsed="true">
+    <Position X="25.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\PlayerRace.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.PlayerSkill" Collapsed="true">
+    <Position X="10.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\PlayerSkill.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.PlayerSkillTree" Collapsed="true">
+    <Position X="27.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAAAAAAAAAAAASAAAAAAAAAAAIAAAYAAAAAAAQA=</HashCode>
+      <FileName>Game Logic\PlayerSkillTree.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Projectile" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQgAQAAAoAgIqIQAAAAMDQBBBAJAAKMCAxAgABEAIA=</HashCode>
+      <FileName>Game Logic\Projectile.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.ProjectileFactory" Collapsed="true">
+    <Position X="30.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Game Logic\ProjectileFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Race" Collapsed="true">
+    <Position X="32.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Race.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Requirement" Collapsed="true">
+    <Position X="16.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAIAACAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Requirement.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Skill" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAACggAAAAAAAEAwAAABEARABAAAgAQQAAAA=</HashCode>
+      <FileName>Game Logic\Skill.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Flags" Collapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Game Logic\Target Flags\Flags.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.SearchFlag" Collapsed="true">
+    <Position X="20.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Target Flags\SearchFlag.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.UserInfo" Collapsed="true">
+    <Position X="27.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACIAAAAAAACAAAQAAAAAAAABBAAACAAAAIgAAAAg=</HashCode>
+      <FileName>Game Logic\UserInfo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Game1" Collapsed="true">
+    <Position X="18.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACSCEEAAAAgAgwAYACAAAAIAQECAEAgABAFgAAQgMAQ=</HashCode>
+      <FileName>Game1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.BackgroundImage" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>User Interface Classes\BackgroundImage.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Button" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAgKAAkAoxAAAAAAAwAAAAIQAACAAAACIAGwIo=</HashCode>
+      <FileName>User Interface Classes\Button.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Camera" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>User Interface Classes\Camera.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.ChatBox" Collapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAiAAAAAAoAAAAAAAACAgAAAAAAAGAAA=</HashCode>
+      <FileName>User Interface Classes\ChatBox.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Dialog" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAwACAAAAgAAAAAAMAAAAAQABAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>User Interface Classes\Dialog.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.FormattedTextProcessor" Collapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASgAAAAEBAIAAAAAAAAAAAAAAAAAAQAMAAA=</HashCode>
+      <FileName>User Interface Classes\FormattedTextProcessor.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.fullInventory" Collapsed="true">
+    <Position X="16.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQAEAAAAAAAABKCgAQAAEAAEAAEAAAAAQACIAg=</HashCode>
+      <FileName>User Interface Classes\fullInventory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.HotKeyHandler" Collapsed="true">
+    <Position X="27.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACgAAAAAQQQAAAAAAAAAABAAAAAAQAAABEAAAAA=</HashCode>
+      <FileName>User Interface Classes\HotKeyHandler.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.HotKeys" Collapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEAAgACAAAAEIAAAAAAIAAAAAAAAAEJAAAAAAAQAA=</HashCode>
+      <FileName>User Interface Classes\HotKeys.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Inventory" Collapsed="true">
+    <Position X="18.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACggAEAAAAAAAQAAQKAAAQAAAAAAQAAAAAAAAACAAA=</HashCode>
+      <FileName>User Interface Classes\Inventory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.InventorySprite" Collapsed="true">
+    <Position X="22" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAAIAAgAgACAABAABAAAAAAAAAEAEgAAIAAA=</HashCode>
+      <FileName>User Interface Classes\InventorySprite.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Item" Collapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAQAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>User Interface Classes\Item.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.ItemSprite" Collapsed="true">
+    <Position X="22" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAEAAAAAAApAAAIAAYAAAAAAAAwAAAAAAAAQAAAA=</HashCode>
+      <FileName>User Interface Classes\ItemSprite.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Panel" Collapsed="true">
+    <Position X="20.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAAJCAAAAgFABgAAAAQAAAAAEEABAAAAQggAAAAAA=</HashCode>
+      <FileName>User Interface Classes\Panel.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.MobileTexture" Collapsed="true">
+    <Position X="18.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAgAAAABAA=</HashCode>
+      <FileName>User Interface Classes\Panel.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.PartyInfo" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAEAAgAmAAAAAAAAAAAAAgAAAAACAgAAAGAEA=</HashCode>
+      <FileName>User Interface Classes\PartyInfo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.PlayerParty" Collapsed="true">
+    <Position X="23.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAEAAAAAAA=</HashCode>
+      <FileName>User Interface Classes\PartyInfo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.PartyMember" Collapsed="true">
+    <Position X="23.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgABAAAQgAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>User Interface Classes\PartyInfo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.PopupBox" Collapsed="true">
+    <Position X="12" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAAQgAAAAiAAAAAAAAAAAAAAAAAAACAAAAAAgAI=</HashCode>
+      <FileName>User Interface Classes\PopupBox.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.ProgressBar" Collapsed="true">
+    <Position X="8.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YABgEIBACAAApkgoIACUAAQABCmAQAAoAAggggILAAI=</HashCode>
+      <FileName>User Interface Classes\ProgressBar.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.scrollBox" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAIAAAAgAAAAAQAEAAAAAAACAAA=</HashCode>
+      <FileName>User Interface Classes\scrollBox.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.ScrollWheel" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgBgFQAAACAQwAAEAIACAAIAAQAgEkIAo=</HashCode>
+      <FileName>User Interface Classes\ScrollWheel.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.ShopWindow" Collapsed="true">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>User Interface Classes\ShopWindow.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.SkillTree" Collapsed="true">
+    <Position X="5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICSAAIAAAAQAAwAEMiIAEABAEAoBAJABAAAAQCEBAAA=</HashCode>
+      <FileName>User Interface Classes\SkillTree.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.SkillTreeTab" Collapsed="true">
+    <Position X="27.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAxAIACGAAIAAgBAAAKAAAAAFEAAAAAQAIAAACEACgg=</HashCode>
+      <FileName>User Interface Classes\SkillTreeTab.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.SkillTreeTabReturn" Collapsed="true">
+    <Position X="29" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAQAAAAAAAAAAAIAAAAAAACAAAEAAAAAAAA=</HashCode>
+      <FileName>User Interface Classes\SkillTreeTab.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.SlidingWindow" Collapsed="true">
+    <Position X="2.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAEIAAAIBAAAAAAgCIABAAAAAAEAAgBAAAQAAg=</HashCode>
+      <FileName>User Interface Classes\SlidingWindow.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.SoundHelper" Collapsed="true">
+    <Position X="30.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAEACSBAAAACQAAAAAAAAAAAGAEAAgAABIAgCIAA=</HashCode>
+      <FileName>User Interface Classes\SoundHelper.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.SoundLibrary" Collapsed="true">
+    <Position X="32.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAIAAAAAAAAAAIAAAAAAAAAAAAAACAAAAAIAA=</HashCode>
+      <FileName>User Interface Classes\SoundLibrary.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.SpellButton" Collapsed="true">
+    <Position X="14.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>User Interface Classes\SpellButton.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.SpellHotbar" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABAAAgAKCQiAQAAAgAAAAAAAAICAQEAAAAAACCAA=</HashCode>
+      <FileName>User Interface Classes\SpellHotbar.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.TextProcessor" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAACoAAAAAAAAAIQCBIAAAAAAAAoBACAAA=</HashCode>
+      <FileName>User Interface Classes\TextProcessor.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.UIEntity" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgiAAABAAIAAAAACAIgAIAAAAAAAIAAA=</HashCode>
+      <FileName>User Interface Classes\UIEntity.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.UIOverlay" Collapsed="true">
+    <Position X="23.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEAVAEgEAQAjBgJIBIIgDYgQQIOLAggHCQHjQAKDhiA=</HashCode>
+      <FileName>User Interface Classes\UIOverlay.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.VerticalProgressBar" Collapsed="true">
+    <Position X="8.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>User Interface Classes\VerticalProgressBar.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerClubGame.Tile" Collapsed="true">
+    <Position X="18.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEARBAAAAAAAAAIAAAAAAAIgwAAAAAAAAAAgAA=</HashCode>
+      <FileName>Data IO\MapReader.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ComputerClubGame.RectangleF" Collapsed="true">
+    <Position X="16.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAYAA=</HashCode>
+      <FileName>All-Purpose Classes\RectangleF.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="ComputerClubGame.ICommand" Collapsed="true">
+    <Position X="18.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>All-Purpose Classes\DeveloperConsole.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ComputerClubGame.IAction" Collapsed="true">
+    <Position X="16.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Actions\IAction.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ComputerClubGame.IEffect" Collapsed="true">
+    <Position X="20.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Effects\IEffect.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ComputerClubGame.IEffectInstant" Collapsed="true">
+    <Position X="22" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Effects\IEffectInstant.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ComputerClubGame.IMap" Collapsed="true">
+    <Position X="23.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\IMap.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ComputerClubGame.ITileSet" Collapsed="true">
+    <Position X="25.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\MapRendering\ITileSet.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ComputerClubGame.MapVirtualKeyMapTypes" Collapsed="true">
+    <Position X="22" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAEAAAABAAAAAABAAAAA=</HashCode>
+      <FileName>All-Purpose Classes\InputMessageFilter.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.AssetTypes" Collapsed="true">
+    <Position X="20.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAGAAAAAAgAAAAAAACAAA=</HashCode>
+      <FileName>Data IO\AssetManager.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.SeverityLevel" Collapsed="true">
+    <Position X="16.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAggAAAAAAAAAAIEAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Data IO\DebugManagement.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.FacingTypes" Collapsed="true">
+    <Position X="30.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgggAAAAABAAAQABABAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\Animation.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.EntityBaseType" Collapsed="true">
+    <Position X="27.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAIAAAAAACAAAAAAAQAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Game Logic\Entity.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.ItemType" Collapsed="true">
+    <Position X="16.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAKAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\ItemGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.WeaponType" Collapsed="true">
+    <Position X="27.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAABAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\ItemGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.ArmorType" Collapsed="true">
+    <Position X="18.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAABAQAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\ItemGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.AccessoryType" Collapsed="true">
+    <Position X="16.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\ItemGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.Magic" Collapsed="true">
+    <Position X="18.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAQAAAAAAAAAAAEAAAAAAQAAAAAA=</HashCode>
+      <FileName>Game Logic\ItemGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.Quality" Collapsed="true">
+    <Position X="30.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAiAAACAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\ItemGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.MapShape" Collapsed="true">
+    <Position X="20.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAABAAAAAAAAAAgAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Game Logic\MapGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.PlayerClassType" Collapsed="true">
+    <Position X="25.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAEQCQAAACAIAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Game Logic\PlayerClassFactory.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.ProjectilePathingTypes" Collapsed="true">
+    <Position X="27.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAEAAAAACAA=</HashCode>
+      <FileName>Game Logic\Projectile.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.ProjectileTypes" Collapsed="true">
+    <Position X="29" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Game Logic\ProjectileFactory.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.EqualityType" Collapsed="true">
+    <Position X="29" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAgBAAAAAEAAAAAAAAhAAAA=</HashCode>
+      <FileName>Game Logic\Requirement.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.CompareType" Collapsed="true">
+    <Position X="23.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAA=</HashCode>
+      <FileName>Game Logic\Requirement.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.ButtonReturnTypes" Collapsed="true">
+    <Position X="22" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>User Interface Classes\Button.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.InventoryLocationTypes" Collapsed="true">
+    <Position X="32.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>User Interface Classes\fullInventory.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.ScrollWheelReturnTypes" Collapsed="true">
+    <Position X="32.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>User Interface Classes\ScrollWheel.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.SkillTreeTabTypes" Collapsed="true">
+    <Position X="20.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAA=</HashCode>
+      <FileName>User Interface Classes\SkillTree.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.SlidingWindowState" Collapsed="true">
+    <Position X="22" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACACAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>User Interface Classes\SlidingWindow.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.SkillTreeLocationTypes" Collapsed="true">
+    <Position X="18.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACACAAAAAAAAAAgAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>User Interface Classes\SlidingWindow.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.SpellTypes" Collapsed="true">
+    <Position X="25.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAJgAEAAAAQAAAQABAAAAgBAABAAA=</HashCode>
+      <FileName>User Interface Classes\SpellButton.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.SpellIDs" Collapsed="true">
+    <Position X="23.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>User Interface Classes\SpellIDEnum.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.Cursors" Collapsed="true">
+    <Position X="25.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAA=</HashCode>
+      <FileName>User Interface Classes\UIOverlay.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ComputerClubGame.PanelTypes" Collapsed="true">
+    <Position X="23.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAEhAAAAAAgAAwAQAAAAAAAACAAAAQBAAACAA=</HashCode>
+      <FileName>User Interface Classes\UIOverlay.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Module Name="ComputerClubGame.Program" Collapsed="true">
+    <Position X="16.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

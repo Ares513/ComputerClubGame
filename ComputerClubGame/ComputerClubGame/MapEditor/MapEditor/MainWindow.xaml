@@ -1,0 +1,46 @@
+﻿<Window x:Class="MapEditor.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		Title="Map Editor" Height="600" Width="800" xmlns:my="clr-namespace:MapEditor"
+		Closing="WindowClosing">
+	<Window.Resources>
+		<RoutedUICommand x:Key="NewTileSet" Text="Create a new TileSet"/>
+		<RoutedUICommand x:Key="OpenTileSet" Text="Open a TileSet"/>
+		<RoutedUICommand x:Key="OpenMap" Text="Open a Map"/>
+	</Window.Resources>
+	<DockPanel>
+		<Menu HorizontalAlignment="Stretch" Name="menu1" VerticalAlignment="Top" DockPanel.Dock="Top" Height="20">
+			<MenuItem Header="_New">
+				<MenuItem Header="New _TileSet" Command="{StaticResource ResourceKey=NewTileSet}"/>
+				<MenuItem Header="New _Map" Command="New"/>
+			</MenuItem>
+			<MenuItem Header="_Open">
+				<MenuItem Header="_Open" Command="Open"/>
+				<MenuItem Header="Open _TileSet" Command="{StaticResource ResourceKey=OpenTileSet}"/>
+				<MenuItem Header="Open _Map" Command="{StaticResource ResourceKey=OpenMap}"/>
+			</MenuItem>
+			<MenuItem Header="_Save" Command="Save"/>
+			<MenuItem Header="_Close" Command="Close"/>
+		</Menu>
+		<TabControl Name="EditorTabs" DockPanel.Dock="Top">
+			<TabControl.Resources>
+				<DataTemplate x:Key="tabHeader" DataType="TabItem">
+					<DockPanel>
+						<TextBlock Margin="3" Text="{Binding RelativeSource={RelativeSource AncestorType={x:Type TabItem}}, Path=Header}"/>
+						<Button DockPanel.Dock="Right" Width="20" Height="20" Padding="0" Command="Close" 
+								CommandParameter="{Binding RelativeSource={RelativeSource AncestorType={x:Type TabItem}}}">X</Button>
+					</DockPanel>
+				</DataTemplate>
+			</TabControl.Resources>
+		</TabControl>
+	</DockPanel>
+	<Window.CommandBindings>
+		<CommandBinding Command="New" CanExecute="CanAlwaysExecute" Executed="ExecuteNewMap"/>
+		<CommandBinding Command="{StaticResource ResourceKey=NewTileSet}" CanExecute="CanAlwaysExecute" Executed="ExecuteNewTileSet"/>
+		<CommandBinding Command="{StaticResource ResourceKey=OpenTileSet}" CanExecute="CanAlwaysExecute" Executed="ExecuteOpenTileSet"/>
+		<CommandBinding Command="{StaticResource ResourceKey=OpenMap}" CanExecute="CanAlwaysExecute" Executed="ExecuteOpenMap"/>
+		<CommandBinding Command="Open" CanExecute="CanAlwaysExecute" Executed="ExecuteOpen"/>
+		<CommandBinding Command="Save" CanExecute="CanExecuteWhenHasTab" Executed="ExecuteSave"/>
+		<CommandBinding Command="Close" CanExecute="CanExecuteWhenHasTab" Executed="ExecuteClose"/>
+	</Window.CommandBindings>
+</Window>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="GameDataLibrary.MobDataDescription[]">
+    <Item>
+      <MobSpriteSheetAssets>Example Mob</MobSpriteSheetAssets>
+      <MobName>Example</MobName>
+
+      <Unique>true</Unique>
+      <MobHealth>100.0</MobHealth>
+      <MobSpeed>2.25</MobSpeed>
+      <MobSize>64,64</MobSize>
+      <AnimDefs>HelloWorld</AnimDefs>
+      <MobSpriteOriginX>32</MobSpriteOriginX>
+      <MobSpriteOriginY>32</MobSpriteOriginY>
+    </Item>
+    <Item>
+      <MobSpriteSheetAssets>Example Mob</MobSpriteSheetAssets>
+      <MobName>Example2</MobName>
+      <Unique>true</Unique>
+      <MobHealth>100.0</MobHealth>
+      <MobSpeed>2.25</MobSpeed>
+      <MobSize>64,64</MobSize>
+      <AnimDefs>HelloWorld</AnimDefs>
+      <MobSpriteOriginX>32</MobSpriteOriginX>
+      <MobSpriteOriginY>32</MobSpriteOriginY>
+      
+    </Item>
+  </Asset>
+</XnaContent>

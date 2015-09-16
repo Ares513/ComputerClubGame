@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="GameDataLibrary.ItemDataDescription[]">
+    <Item>
+      <Name>Sword</Name>
+      <DropPercentage>0.111</DropPercentage>
+    </Item>
+    <Item>
+      <Name>Spear</Name>
+      <DropPercentage>0.222</DropPercentage>
+    </Item>
+    <Item>
+      <Name>Dagger</Name>
+      <DropPercentage>0.333</DropPercentage>
+    </Item>
+    <Item>
+      <Name>Body Armor</Name>
+      <DropPercentage>0.444</DropPercentage>
+    </Item>
+    <!--<Item>
+      <Name></Name>
+    </Item>-->
+  </Asset>
+</XnaContent>

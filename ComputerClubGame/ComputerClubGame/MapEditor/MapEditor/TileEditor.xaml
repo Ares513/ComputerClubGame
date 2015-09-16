@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="MapEditor.TileEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+			 Height="64" Width="64">
+	<UserControl.Resources>
+		<DrawingBrush x:Key="TopperBrush" AlignmentX="Left" AlignmentY="Top" Stretch="None" TileMode="Tile" Viewport="0,0,32,32" ViewportUnits="Absolute">
+			<DrawingBrush.Drawing>
+				<GeometryDrawing Geometry="M0,16A16,16,90,0,0,16,0 M16,32A16,16,90,0,1,32,16">
+					<GeometryDrawing.Pen>
+						<Pen Brush="Blue" />
+					</GeometryDrawing.Pen>
+				</GeometryDrawing>
+			</DrawingBrush.Drawing>
+		</DrawingBrush>
+	</UserControl.Resources>
+	<Grid>
+		<Canvas Name="Origin" Height="64" Width="64" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0">
+			<Polygon Name="Floor" Points="32,32 0,48 32,64 64,48" Fill="#3FFF0000" />
+			<Canvas Name="Skeleton">
+				<Polygon Points="32,0 64,16 32,32 0,16" Stroke="Gray"></Polygon>
+				<Line X1="0" Y1="16" X2="0" Y2="48" Stroke="Gray"/>
+				<Line X1="32" Y1="32" X2="32" Y2="64" Stroke="Gray"/>
+				<Line X1="64" Y1="16" X2="64" Y2="48" Stroke="Gray"/>
+			</Canvas>
+			<Canvas Name="Topology">
+				<Canvas.Resources>
+					<Style x:Key="topoStyle" TargetType="Shape">
+						<Setter Property="Stroke" Value="Goldenrod"/>
+						<Setter Property="StrokeThickness" Value="2"/>
+					</Style>
+					<Style TargetType="Line" BasedOn="{StaticResource ResourceKey=topoStyle}"/>
+					<Point x:Key="back" X="32" Y="0"/>
+					<Point x:Key="left" X="0" Y="16"/>
+					<Point x:Key="right" X="64" Y="16"/>
+					<Point x:Key="front" X="32" Y="32"/>
+				</Canvas.Resources>
+				
+				<Line Name="LowerLeft" X1="0" Y1="48" X2="32" Y2="64"/>
+				<Line Name="LowerRight" X1="64" Y1="48" X2="32" Y2="64"/>
+				
+				<Line Name="DownMid" X1="16" Y1="8" X2="48" Y2="24"/>
+				<Line Name="UpMid" X1="16" Y1="24" X2="48" Y2="8"/>
+				<Path Style="{StaticResource ResourceKey=topoStyle}" StrokeMiterLimit="0">
+					<Path.Data>
+						<PathGeometry>
+							<PathFigure IsClosed="True" StartPoint="{DynamicResource ResourceKey=back}">
+								<LineSegment Point="{DynamicResource ResourceKey=right}" />
+								<LineSegment Point="{DynamicResource ResourceKey=front}" />
+								<LineSegment Point="{DynamicResource ResourceKey=left}" />
+							</PathFigure>
+						</PathGeometry>
+					</Path.Data>
+				</Path>
+				<Path Style="{StaticResource ResourceKey=topoStyle}">
+					<Path.Data>
+						<GeometryGroup>
+							<LineGeometry StartPoint="32,64" EndPoint="{DynamicResource ResourceKey=front}"/>
+							<LineGeometry StartPoint="0,48" EndPoint="{DynamicResource ResourceKey=left}"/>
+							<LineGeometry StartPoint="64,48" EndPoint="{DynamicResource ResourceKey=right}"/>
+						</GeometryGroup>
+					</Path.Data>
+				</Path>
+			</Canvas>
+		</Canvas>
+		<!--<Rectangle Name="TopperFill" Fill="{StaticResource ResourceKey=TopperBrush}"></Rectangle>-->
+		<Rectangle Fill="#00000000">
+			<Rectangle.Style>
+				<Style TargetType="Rectangle">
+					<Setter Property="Stroke" Value="Gray"></Setter>
+					<Setter Property="StrokeThickness" Value="1"></Setter>
+					<Style.Triggers>
+						<Trigger Property="IsMouseOver" Value="True">
+							<Setter Property="Stroke" Value="Green"></Setter>
+							<Setter Property="StrokeThickness" Value="2"></Setter>
+						</Trigger>
+					</Style.Triggers>
+				</Style>
+			</Rectangle.Style>
+		</Rectangle>
+	</Grid>
+</UserControl>

@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="MapEditor.MapEditorPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800" xmlns:my="clr-namespace:MapEditor"
+			 Background="Transparent">
+	<Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition/>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="20"/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<Menu Grid.ColumnSpan="1" Grid.Row="0">
+			<MenuItem Header="Add TileSet" Click="OnAddTileSetClicked"/>
+			<MenuItem Header="Remove TileSet" Click="OnRemoveTileSetClicked"/>
+		</Menu>
+		<Menu Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="0">
+			<MenuItem Header="Insert Left" Click="OnAddColClicked"/>
+			<MenuItem Header="Remove Left" Click="OnRemoveColClicked"/>
+			<MenuItem Header="Eraser" Click="OnEraserClicked"/>
+			<MenuItem Header="Remove Right" Click="OnRemoveRowClicked"/>
+			<MenuItem Header="Insert Right" Click="OnAddRowClicked"/>
+		</Menu>
+		<TabControl Name="TileSets" Grid.Row="1"  Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+		<GridSplitter Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch" Background="Black" ShowsPreview="True" Width="5" />
+		<Slider Name="ZClip" Grid.Column="2" Grid.Row="1" Maximum="10" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Orientation="Vertical" ValueChanged="OnZClipValueChanged" />
+		<ScrollViewer Name="Root" Grid.Row="1" Grid.Column="3" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+			<Canvas Name="canvas" HorizontalAlignment="Center" VerticalAlignment="Center" Width="64" Height="64" Background="Green">
+				<Canvas Name="Origin" Canvas.Left="32" Canvas.Top="32">
+					<Canvas Name="Tiles"></Canvas>
+					<Polygon Name="MapEdge" Points="0,0 32,16 0,32 -32,16" Stroke="Gray"></Polygon>
+					<Polygon Name="PreviewHigh" Points="0,0 32,16 0,32 -32,16" Stroke="Gold"/>
+					<Polygon Name="PreviewLow" Points="0,0 32,16 0,32 -32,16" Stroke="Gold"/>
+					
+				</Canvas>
+			</Canvas>
+		</ScrollViewer>
+	</Grid>
+</UserControl>

@@ -1,0 +1,87 @@
+"defaultProgressBar"^"Texture2D"^"User Interface/Progress And Health Bars/progressBar"@
+"defaultProgressBarFull"^"Texture2D"^"User Interface/Progress And Health Bars/progressBarFull"@
+"defaultSound"^"SoundEffect"^"User Interface/Fonts/defaultFont"@
+"defaultFont"^"SpriteFont"^"User Interface/Fonts/defaultFont"@
+"SkillTreeFontItalic"^"SpriteFont"^"User Interface/Fonts/SkillTreeFontItalic"@
+"SkillTreeFontBold"^"SpriteFont"^"User Interface/Fonts/SkillTreeFontBold"@
+"SkillTreeFontRegular"^"SpriteFont"^"User Interface/Fonts/SkillTreeFontRegular"@
+"cursorBase"^"Texture2D"^"User Interface/Pointers And Cursors/cursorBase"@
+"cursorGrabbing"^"Texture2D"^"User Interface/Pointers And Cursors/cursorGrabbing"@
+"buttonHighLight"^"Texture2D"^"User Interface/Buttons/buttonHighLight"@
+"buttonNormal"^"Texture2D"^"User Interface/Buttons/buttonNormal"@
+"grayPanel"^"Texture2D"^"User Interface/Logos And Backgrounds/grey_panel"@
+"SkillTreeTab"^"Texture2D"^"User Interface/Buttons/SkillTreeTab"@
+"dialogborder"^"Texture2D"^"User Interface/Buttons/dialogborder"@
+"parchmentbackground"^"Texture2D"^"User Interface/Buttons/parchment"@
+"parchmentExpanded"^"Texture2D"^"User Interface/Buttons/ParchmentExpanded"@
+"SpellBoxEmpty"^"Texture2D"^"User Interface/Buttons/SpellBoxEmpty"@
+"GameLogo"^"Texture2D"^"User Interface/Logos And Backgrounds/GameLogo"@
+"buttonPressed"^"Texture2D"^"User Interface/Buttons/buttonPressed"@
+"healthOrbEmpty"^"Texture2D"^"User Interface/Progress And Health Bars/orbEmpty"@
+"healthOrbFull"^"Texture2D"^"User Interface/Progress And Health Bars/orbFull"@
+"noArmorMaleBody"^"Texture2D"^"World/Character Art/Male Defaults/clothes"@
+"KnightHead"^"Texture2D"^"World/Character Art/Male Defaults/male_head1"@
+"Longsword"^"Texture2D"^"World/Character Art/Weapons/longsword"@
+"overheadFont"^"SpriteFont"^"User Interface/Fonts/PlayerNameOverhead"@
+"debugFont"^"SpriteFont"^"User Interface/Fonts/Debug"@
+"blademasterZiso"^"Texture2D"^"World/NPCs/Friendly NPCs/Dalantians/Blademaster Ziso/Blademaster_Ziso"@
+"basicTileset"^"Texture2D"^"World/Tiles/part4_tileset"@
+"firebolt"^"Texture2D"^"User Interface/Spell Icons/firebolt"@
+"fireball"^"Texture2D"^"User Interface/Spell Icons/fireball_2"@
+"fireburst"^"Texture2D"^"User Interface/Spell Icons/fireburst"@
+"firecircle"^"Texture2D"^"User Interface/Spell Icons/firecircle"@
+"firepits"^"Texture2D"^"User Interface/Spell Icons/firepits"@
+"firestream"^"Texture2D"^"User Interface/Spell Icons/firestream"@
+"firewall"^"Texture2D"^"User Interface/Spell Icons/firewall"@
+"flaming mantle"^"Texture2D"^"User Interface/Spell Icons/flaming-mantle"@
+"LockedSkill"^"Texture2D"^"User Interface/Spell Icons/LockedSkill"@
+"forked lightning"^"Texture2D"^"User Interface/Spell Icons/forked-lightning"@
+"guiInventoryAsset"^"Texture2D"^"User Interface/Inventory/gui2"@
+"goblinSpearmanLiveWalkAttack"^"Texture2D"^"World/NPCs/Hostile NPCs/goblin_spearman_live_walk_attack"@
+"goblinSpearmanDeath"^"Texture2D"^"World/NPCs/Hostile NPCs/goblin_spearman_death"@
+"fireballprojectile"^"Texture2D"^"World/Projectile Art/fireball_0"@
+"explosion"^"Texture2D"^"World/Projectile Art/explosion"@
+"castFireball"^"SoundEffect"^"User Interface/Sounds/battle/magic1"@
+"levelup"^"SoundEffect"^"User Interface/Sounds/interface/levelup"@
+"interface1"^"SoundEffect"^"User Interface/Sounds/interface/interface1"@
+"interface2"^"SoundEffect"^"User Interface/Sounds/interface/interface2"@
+"interface3"^"SoundEffect"^"User Interface/Sounds/interface/interface3"@
+"interface4"^"SoundEffect"^"User Interface/Sounds/interface/interface4"@
+"interface5"^"SoundEffect"^"User Interface/Sounds/interface/interface5"@
+"interface6"^"SoundEffect"^"User Interface/Sounds/interface/interface6"@
+"ziso_portrait"^"Texture2D"^"World/NPCs/Friendly NPCs/Dalantians/Blademaster Ziso/knight5"@
+"hasaad_texture"^"Texture2D"^"World/NPCs/Friendly NPCs/Dalantians/Hasaad Al-Mamar/wandering_trader1"@
+"ChatFont"^"SpriteFont"^"User Interface/Fonts/ChatFont"@
+"DeadFontLarge"^"SpriteFont"^"User Interface/Fonts/DeadFontLarge"@
+"DeadFontSmall"^"SpriteFont"^"User Interface/Fonts/DeadFontSmall"@
+"CoinsBig"^"Texture2D"^"World/Dropped Items/coins100"@
+"CoinsMedium"^"Texture2D"^"World/Dropped Items/coins25"@
+"Coins5"^"Texture2D"^"World/Dropped Items/coins5"@
+"ThunderSlam"^"Texture2D"^"World/Particle Effects/particlefx_07"@
+"ThunderSlamIcon"^"Texture2D"^"User Interface/Spell Icons/ThunderSlamButton"@
+"FoggyBackground"^"Texture2D"^"User Interface/Logos And Backgrounds/foggy background (1)"@
+"SpellHotBarFont"^"SpriteFont"^"User Interface/Fonts/SpellHotBarFont"@
+"goldIcon"^"Texture2D"^"User Interface/Buttons/goldIcon"@
+"belt"^"Texture2D"^"World/Dropped Items/belt"@
+"boots"^"Texture2D"^"World/Dropped Items/boots"@
+"buckler"^"Texture2D"^"World/Dropped Items/buckler"@
+"clothes"^"Texture2D"^"World/Dropped Items/clothes"@
+"dagger"^"Texture2D"^"World/Dropped Items/dagger"@
+"gem"^"Texture2D"^"World/Dropped Items/gem"@
+"greatbow"^"Texture2D"^"World/Dropped Items/greatbow"@
+"greatstaff"^"Texture2D"^"World/Dropped Items/greatstaff"@
+"greatsword"^"Texture2D"^"World/Dropped Items/greatsword"@
+"health_potion"^"Texture2D"^"World/Dropped Items/health_potion"@
+"leather_armor"^"Texture2D"^"World/Dropped Items/leather_armor"@
+"longbow"^"Texture2D"^"World/Dropped Items/longbow"@
+"longsword"^"Texture2D"^"World/Dropped Items/longsword"@
+"mana_potion"^"Texture2D"^"World/Dropped Items/mana_potion"@
+"ring"^"Texture2D"^"World/Dropped Items/ring"@
+"rod"^"Texture2D"^"World/Dropped Items/rod"@
+"shield"^"Texture2D"^"World/Dropped Items/shield"@
+"shortbow"^"Texture2D"^"World/Dropped Items/shortbow"@
+"shortsword"^"Texture2D"^"World/Dropped Items/shortsword"@
+"slingshot"^"Texture2D"^"World/Dropped Items/slingshot"@
+"staff"^"Texture2D"^"World/Dropped Items/staff"@
+"steel_armor"^"Texture2D"^"World/Dropped Items/steel_armor"@
+"wand"^"Texture2D"^"World/Dropped Items/wand"
